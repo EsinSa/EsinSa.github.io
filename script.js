@@ -12,7 +12,7 @@ function closeSettings() {
     document.getElementById("closingButton").style.display = "none";  
 }
 
-var studyTime = 1;
+var studyTime = 30;
 var breakTime = 5;
 setStudyTime = studyTime;
 setBreakTime = breakTime;
