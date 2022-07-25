@@ -159,6 +159,8 @@ function reset() {
     setBreakTime = breakTime
     setStudyTime = studyTime
     setSeconds = secondsStart;
+    stateTimer = "Let's go!"
+    getStateTimer.innerText = stateTimer;
 
     if(intervalStudy != null) {
         clearInterval(intervalStudy)
