@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    background-position: center;
+    background-size: contain;
+    font-size: 120%;
+  }
+
+.card {
+    background: #ffffff;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2em;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 2px 4px;
+    z-index: 2;
+}
+
+.start {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 2px 4px;
+    
+}
+
+.start:active {
+    box-shadow: 0px 0px;
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+#pause {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 2px 4px;
+}
+
+#pause:active {
+    box-shadow: 0px 0px;
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+
+#reset {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 2px 4px;
+}
+
+#reset:active {
+    box-shadow: 0px 0px;
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+.settings {
+    background: #ffffff;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2em;
+    width: 100%;
+    max-width: 120px;
+    max-height: 190px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 4px;
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: auto 10px;
+    position: fixed;
+    margin-left: 130px;
+    z-index: 1;
+}
+
+
+.left {
+    line-height: 0em;
+}
+
+.opener {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    float:top;
+}
+
+.study-arrows {
+    width: 100%;
+    display: flex;
+    height: 20px;
+}
+
+
+#study {
+    width: 30px;
+}
+
+.break-arrows {
+    width: 100%;
+    display: flex;
+    height: 20px;
+}
+
+#break {
+    width: 30px;
+}
+
+.with, .studyfor {
+    margin-bottom: 5px;
+}
+
+.right {
+    width: 55px;
+}
+
+
+.openerButton {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 1px 2px;
+    margin-top: 4px;;
+    margin-left: 17px;
+}
+
+.openerButton:active {
+    box-shadow: 0px 0px;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+.closerButton {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 1px 2px;
+    margin-left: 17px;
+    
+}
+
+.closerButton:active {
+    box-shadow: 0px 0px;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+#breakButtonLeft, #studyButtonLeft {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 0px;
+    margin-top: 16px;
+    margin-right: 5px;
+    margin-left: 18px;
+}
+
+#breakButtonRight, #studyButtonRight {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 0px;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+
+.arrows {
+    width: 19px;
+    height: 19px;
+}
+
+#stateTimer {
+    margin-top: 0px;
+}
