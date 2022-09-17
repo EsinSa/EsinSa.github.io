@@ -44,7 +44,7 @@ body {
 
 #pause {
     background-color: rgb(255, 255, 255);
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
@@ -62,7 +62,7 @@ body {
 
 #reset {
     background-color: rgb(255, 255, 255);
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
@@ -140,7 +140,7 @@ body {
 
 .openerButton {
     background-color: rgb(255, 255, 255);
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
@@ -159,7 +159,7 @@ body {
 
 .closerButton {
     background-color: rgb(255, 255, 255);
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
